@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RAndom Paragraph Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+
+        <form action="#">
+            <div class="header">
+                <div class="left">
+                    <input type="number" name="" id="num-input" class="value" value="5" />
+
+                <select name="" id="opt-input" class="value">
+                    <option value="paras">Paragraph</option>
+                    <option value="sentences">Sentences</option>
+                </select>
+
+                </div>
+                <div class="right">
+                    <button class="btn" id="gen-btn">Generate</button>
+                    <button id="copy-btn" class="btn">
+                        <span>Copy</span><i class="fa-solid fa-copy"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+
+        <div class="gen-body">
+            <div class="gen-content">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
